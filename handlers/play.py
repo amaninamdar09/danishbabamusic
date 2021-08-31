@@ -66,3 +66,28 @@ async def play(_, message: Message):
         ),
     )
         return await lel.delete()
+
+def r_ply(type_):
+    if type_ == 'play':
+        ico = '▶'
+    else:
+        ico = '⏸'
+    mar = InlineKeyboardMarkup(
+        [
+            [
+                InlineKeyboardButton('⏹', 'leave'),
+                InlineKeyboardButton('⏸', 'puse'),
+                InlineKeyboardButton('▶️', 'resume'),
+                InlineKeyboardButton('⏭', 'skip')
+                
+            ],
+            [
+                InlineKeyboardButton('Playlist 📖', 'playlist'),
+                
+            ],
+            [       
+                InlineKeyboardButton("❌ Close",'cls')
+            ]        
+        ]
+    )
+    return mar
