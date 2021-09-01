@@ -8,3 +8,4 @@ requests
 aiohttp
 asyncio
 youtube_search
+pytgcalls==3.0.0.dev10
