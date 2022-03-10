@@ -1,6 +1,6 @@
 pyrogram
 TgCrypto
-py-tgcalls
+
 python-dotenv
 youtube_dl
 youtube_search_python
@@ -8,4 +8,4 @@ requests
 aiohttp
 asyncio
 youtube_search
-pytgcalls==3.0.0.dev10
+pytgcalls==2.1.0
